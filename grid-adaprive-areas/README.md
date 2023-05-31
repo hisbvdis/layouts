@@ -1,1 +1,1 @@
-# Grid — Adaptivity
+# Grid — Adaptivity with "grid-area"
