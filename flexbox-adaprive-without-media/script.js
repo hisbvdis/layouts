@@ -1,8 +1,8 @@
 const resizeObserver = new ResizeObserver((entries) => {
   entries.forEach((elem) => {
     const card = elem.target;
-    const img = elem.target.querySelector(".card__img");
-    const text = elem.target.querySelector(".card__text");
+    const img = elem.target.querySelector(".image");
+    const text = elem.target.querySelector(".text");
     const total = elem.target.querySelector(".card__total");
     img.textContent = "Image (" + img.offsetWidth + "px)";
     text.textContent = "Text (" + text.offsetWidth + "px)";
