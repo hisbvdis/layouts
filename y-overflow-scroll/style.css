@@ -1,9 +1,10 @@
 /* 
 1. Родителю прокручиваемого элемента:
-  - добавить свойство `display: flex`
-  - добавить свойство `flex-direction: column` 
+  1.1. Сделать Flex-контейнером `display: flex`
+  1.2. Задать основную ось по вертикали `flex-direction: column`
+  1.3. Ограничить максимальную высоту `max-block-size: 500px`
 */
-.coral-container {
+.container--red {
   display: flex;
   flex-direction: column;
   max-block-size: 500px;
@@ -15,10 +16,9 @@
 
 /* 
 2. Прокручиваемому элементу
-  - добавить свойство `overflow-y: auto`
+  2.1. Добавить свойство `overflow-y: auto`
 */
-*/
-ul {
+.list--green {
   margin: 0;
   padding: 50px;
   
@@ -28,7 +28,7 @@ ul {
   overflow-y: auto;
 }
 
-li {
+.item--blue {
   min-block-size: 100px;
 
   background-color: lightblue;
