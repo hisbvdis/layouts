@@ -11,7 +11,7 @@
 | flexbox-adaprive-without-media | Flexbox adaptive without "@media"                        | [Folder](./flexbox-adaprive-without-media)
 | flexbox-wrap-and-center        | Flexbox wrapping and centering without "@media"          | [Folder](./flexbox-wrap-and-center)
 | focus-border-animation         | Font weight bold setting shift preventing                | [Folder](./focus-border-animation)
-| grid-layout                    | Card layout with grid                                    | [Folder](./grid-layout)
+| grid-adaprive-areas            | Card layout adaptivity with grid-areas                   | [Folder](./grid-adaprive-areas)
 | keyboard-mouse-focus-styling   | Different styles for focusing with keyaboard of pointer  | [Folder](./keyboard-mouse-focus-styling)
 | scroll-only-elem               | Scrolling element's content without scrolling page       | [Folder](./scroll-only-elem)
 | scroll-padding                 | Size of padding when page is scrolling                   | [Folder](./scroll-padding)
